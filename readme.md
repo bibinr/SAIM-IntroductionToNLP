@@ -22,15 +22,22 @@ Once `python3` is installed, create and activate a `virtualenv`
     source activate venv/bin/activate
     pip install --upgrade pip
 This activates a `virtualenv` where you can install the required packages
+
 Install nltk models
-install spacy models
+
+    python -m nltk.downloader stopwords
+
+
+Install spacy models
+
+    python -m spacy download en
 
 ----------
 
 
 **Labs**
 
- 1. Preprocessing 
- 2. Part of speech tagging
- 3. BOW/TF-IDF
+ 1. [Preprocessing](https://github.com/bibinr/SAIM-IntroductionToNLP/blob/master/Lab-1-Preprocessing/Lab-1-preprocess.ipynb) 
+ 2. [Part of speech tagging](https://github.com/bibinr/SAIM-IntroductionToNLP/blob/master/Lab-2-PartOfSpeech/Lab-2-PartOfSpeech.ipynb)
+ 3. [BOW/TF-IDF](https://github.com/bibinr/SAIM-IntroductionToNLP/blob/master/Lab-3-BOW-TFIDF/Lab-3-Bow-TFIDF.ipynb)
 
